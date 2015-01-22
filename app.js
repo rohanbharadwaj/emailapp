@@ -75,25 +75,22 @@ $scope.reply = function() {
         $scope.composeEmail.from = "me";
         $scope.isComposePopupVisible = true;
     };
-// $scope.emails=[{from: 'Rahul', subject: 'I love angular', date: 'Jan 1'},
-// 						{from: 'Jack', subject: 'I love java', date: 'Feb 21'},
-// 						{from: 'Smith', subject: 'I like angular', date: 'Aug 1'}
-// 						];
+
 $scope.emails = [
     { 
-        from: 'John', 
+        from: 'Rohan', 
         subject: 'I love angular', 
         date: 'Jan 1', 
         body: 'hello world!'
     },
     { 
-        from: 'Jack', 
+        from: 'Adam', 
         subject: 'Angular and I are just friends', 
         date: 'Feb 15', 
         body: 'just kidding'
     },
     { 
-        from: 'Ember', 
+        from: 'Rahul', 
         subject: 'I hate you Angular!', 
         date: 'Dec 8', 
         body: 'wassup dude'
